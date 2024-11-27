@@ -1,0 +1,255 @@
+* {
+    font-family: sans-serif;
+}
+
+.head1 {
+    display: flex;
+    height: 14vh;
+    background-color: #000000;
+    padding-left: 350px;
+}
+
+.universal {
+    position: absolute;
+    padding-left: 1px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    height: 200px;
+    width: 290px;
+    display: flex;
+}
+
+.earth {
+    height: 13vh;
+    width: 13vh; 
+    animation: rotate 6s infinite linear; 
+}
+
+@keyframes rotate {
+ 
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+.content 
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    color: white;
+    font-size: 56px;
+    padding-left: 290px;
+    height: 600px;
+    position: relative;
+    padding-top: 147px;
+    
+}
+.content :hover
+{
+    background-color: rgb(45, 43, 43);
+    height: 100%;
+}
+/* --------------------- */
+.background {
+    position: relative; 
+    height: 300px; 
+    width: 100%; 
+}
+
+.text {
+    position: absolute; 
+    top: 900px;
+    left: 10px; 
+    background-color: transparent;
+    padding: 10px;
+    padding-left: 200px; 
+    font-size: 40px; 
+    text-align: left;
+    color: rgb(252, 252, 252);
+}
+
+button {
+    background-color: transparent;
+    border: 8px solid rgb(255, 255, 255); 
+    height: 90px;
+    width: 600px;
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+/* ------------------------------------- */
+.bottomline {
+    /* height: 100vh; */
+    padding-top: 1160px;
+    background-color: rgba(136, 137, 139, 0.336);
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    color: rgb(31, 56, 225);
+    font-size: 36px; 
+}
+.bottomline > div
+{
+    align-items: center;
+    padding-bottom: 50px;
+}
+/* ----------------------------------- */
+.images {
+    /* background-color: aqua; */
+    display: flex;
+    font-size: 80px;
+    padding-left: 200px;
+    padding-top: 70px;
+}
+
+.img {
+    /* background-color: violet; */
+    display: flex;
+    font-size: 50px;
+    justify-content: flex-end;
+    gap: 370px;
+    /* padding-left: 50px; */
+}
+
+.contain {
+    /* background-color: rgb(10, 174, 46); */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px 100px;
+}
+/*------------------------------------------------------- */
+.lowtext {
+    /* background-color: rgb(216, 216, 29); */
+    font-size: 38px;
+    display: flex; 
+    padding-right: 1000px;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 8px; 
+}
+/* -------------------------------------------------------- */
+.news {
+    background-color: rgb(231, 234, 233);
+    padding-left: 140px;
+    font-size: 80px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.newsimg {
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 70px; 
+    padding: 20px;
+    padding-left: 30vh;
+}
+.newstext{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    gap: 900px;
+    padding-left: 45vh;
+    font-size: 48px;
+}
+.newsbtm {
+    height: auto;
+    padding-left: 300px;
+    /* background-color: aqua; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    align-items: center;
+}
+
+.newsbtm img {
+    width: 1200px;
+    height: 750px;
+    border-radius: 10px;
+}
+.newsbtmtext
+{
+    /* background-color: yellow; */
+    display: flex;
+    gap: 740px;
+    font-size: 48px;
+    padding-left: 450px;
+}
+.btn{
+    padding-left: 2000px;
+    padding-top: 190px;
+}
+.lasbtn{
+    background-color: rgb(39,118,206);
+    height: 200px;
+    padding-left: 40px;
+}
+/* ------------------------------------------ */
+.footer
+{
+    background-color: rgb(39,118,206);
+    height: 1890px;
+    padding-top: 30px;
+}
+.connect
+{
+    display: flex;
+    font-size: 90px;
+    color: white;
+    padding-left: 900px;
+    padding-top: 30px;
+    gap: 1500px;
+}
+.lastimg{
+    background-color: rgb(39,118,206);
+    padding-left: 750px;
+}
+/* -------------------------------- */
+.foot {
+    background-color: white;
+    padding-top: 170px;
+    padding-left: 580px;
+    padding-bottom: 100px;
+}
+
+.foot div {
+    display: flex;
+    gap: 100px; 
+}
+/* ---------------------------------------- */
+.last1 {
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.last p {
+    color: rgb(166, 163, 163);
+    font-size: 18px;
+    display: flex;
+    margin: 0;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 300px;
+}
+.demo{
+    display: flex;
+    align-items: center;
+  
+}
+/* ------------------------- */
+.ll
+{
+    padding-top: 220px;
+    padding-left: 1200px;
+    padding-bottom: 200px;
+}
